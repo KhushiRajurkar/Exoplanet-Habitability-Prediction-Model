@@ -53,9 +53,9 @@ The modeling pipeline follows these key stages:
    - ROC AUC (for each class and overall)
 
 5. **Output Artifacts**  
-   - Saved model: [`models/logistic_regression_adasyn_model.pkl`](Models/logistic_regression_adasyn_model.pkl)
-   - Confusion matrices: [`confusion_matrices/`](Confusion_Matrices/)
-   - Metrics export: [`metrics/Metrics_F1_Score.xlsx`](Metrics/Metrics_F1_Score.xlsx)
+   - Saved model: [`Models/logistic_regression_adasyn_model.pkl`](Models/logistic_regression_adasyn_model.pkl)
+   - Confusion matrices: [`Confusion_Matrices/`](Confusion_Matrices/)
+   - Metrics export: [`Metrics/Metrics_F1_Score.xlsx`](Metrics/Metrics_F1_Score.xlsx)
 
 ## 📈 Performance Summary
 
