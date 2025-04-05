@@ -22,7 +22,7 @@ It includes:
 ## Dataset
 
 - The dataset is derived from exoplanet observational features and cleaned for modeling.
-- Final file: [`hwc.xlsx`](data/hwc.xlsx)
+- Final file: [`hwc.xlsx`](Dataset/hwc.xlsx)
 - Contains ~99 features with target label: `P_HABITABLE`
 
 To convert to `.csv`:
@@ -75,18 +75,15 @@ The best-performing combination was **Logistic Regression + ADASYN**, achieving 
 - **Class 1 (Habitable Class 1):** Precision = 0.20, Recall = 0.33  
 - **Class 2 (Habitable Class 2):** Precision = 0.62, Recall = 0.83
 
-Confusion Matrix available at:  
-[`confusion_matrices/Logistic_Regression_ADASYN_ConfusionMatrix.png`](confusion_matrices/Logistic_Regression_ADASYN_ConfusionMatrix.png)
-
-For detailed analysis and charts, check:  
-[`notebooks/Exoplanet_Habitability_Index.ipynb`](notebooks/Exoplanet_Habitability_Index.ipynb)
+Confusion Matrix for the best performing model:  
+[`confusion_matrices/Logistic_Regression_ADASYN_ConfusionMatrix.png`](Confusion_Matrices/Logistic_Regression_ADASYN_ConfusionMatrix.png)
 
 
 ## Confusion Matrices
 
 Visual evaluations for all model + sampler combinations are stored in the folder:
 
-[`confusion_matrices/`](confusion_matrices/)
+[`confusion_matrices/`](Confusion_Matrices/)
 
 Each image follows the naming format:  
 `<ModelName>_<SamplerName>_ConfusionMatrix.png`
