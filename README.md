@@ -4,7 +4,7 @@ A machine learning pipeline to predict whether an exoplanet is habitable using p
 
 ---
 
-## 🚀 Overview
+## Overview
 
 This project applies advanced ML techniques to classify exoplanets into:
 - Not Habitable (0)
@@ -19,7 +19,7 @@ It includes:
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - The dataset is derived from exoplanet observational features and cleaned for modeling.
 - Final file: [`hwc.xlsx`](data/hwc.xlsx)
@@ -31,7 +31,7 @@ import pandas as pd
 pd.read_excel('hwc.xlsx').to_csv('hwc.csv', index=False)
 ```
 
-## 🧠 Modeling Approach
+## Modeling Approach
 
 The modeling pipeline follows these key stages:
 
@@ -75,21 +75,18 @@ The best-performing combination was **Logistic Regression + ADASYN**, achieving 
 - **Class 1 (Habitable Class 1):** Precision = 0.20, Recall = 0.33  
 - **Class 2 (Habitable Class 2):** Precision = 0.62, Recall = 0.83
 
-📁 Confusion Matrix available at:  
+Confusion Matrix available at:  
 [`confusion_matrices/Logistic_Regression_ADASYN_ConfusionMatrix.png`](confusion_matrices/Logistic_Regression_ADASYN_ConfusionMatrix.png)
 
-📁 ROC Curve available at:  
-[`confusion_matrices/Logistic_Regression_ADASYN_ROC.png`](confusion_matrices/Logistic_Regression_ADASYN_ROC.png)
-
-📓 For detailed analysis and charts, check:  
+For detailed analysis and charts, check:  
 [`notebooks/Exoplanet_Habitability_Index.ipynb`](notebooks/Exoplanet_Habitability_Index.ipynb)
 
 
-## 🧩 Confusion Matrices
+## Confusion Matrices
 
 Visual evaluations for all model + sampler combinations are stored in the folder:
 
-📁 [`confusion_matrices/`](confusion_matrices/)
+[`confusion_matrices/`](confusion_matrices/)
 
 Each image follows the naming format:  
 `<ModelName>_<SamplerName>_ConfusionMatrix.png`
