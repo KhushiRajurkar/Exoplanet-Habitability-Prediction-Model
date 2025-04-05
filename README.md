@@ -75,10 +75,6 @@ The best-performing combination was **Logistic Regression + ADASYN**, achieving 
 - **Class 1 (Habitable Class 1):** Precision = 0.20, Recall = 0.33  
 - **Class 2 (Habitable Class 2):** Precision = 0.62, Recall = 0.83
 
-Confusion Matrix for the best performing model:  
-[`confusion_matrices/Logistic_Regression_ADASYN_ConfusionMatrix.png`](Confusion_Matrices/Logistic_Regression_ADASYN_ConfusionMatrix.png)
-
-
 ## Confusion Matrices
 
 Visual evaluations for all model + sampler combinations are stored in the folder:
