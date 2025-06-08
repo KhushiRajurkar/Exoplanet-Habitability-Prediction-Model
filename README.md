@@ -77,7 +77,7 @@ The best-performing combination was **Logistic Regression + ADASYN**, achieving 
 
 ## Confusion Matrices
 
-Visual evaluations for all model + sampler combinations are stored in the folder: [`Confusion Matrices`)(Confusion Matrices)
+Visual evaluations for all model + sampler combinations are stored in the folder: `Confusion Matrices`
 
 Each image follows the naming format:  
 `<ModelName>_<SamplerName>_ConfusionMatrix.png`
